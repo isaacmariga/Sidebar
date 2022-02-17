@@ -12,10 +12,22 @@ nav {
     box-shadow: 1px 1px 7px black;
 }
 
+.sidebar {
+    background-color: aqua;
+    height: 100vh;
+    width: 30vw;
+}
+
 .links {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 70vh;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     cursor: pointer;
+}
+
+.link,
+.smedias {
+    padding: 5rem;
 }
 
 .ham {
