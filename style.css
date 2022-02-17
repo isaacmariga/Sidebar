@@ -16,9 +16,14 @@
                                             background-color: aqua;
                                             height: 100vh;
                                             width: 30vw;
+                                            transform: translate(-100%);
                                         }
                                         
-                                        .sidebar_ .links {
+                                        .sidebar-show {
+                                            transform: translate(0);
+                                        }
+                                        
+                                        .links {
                                             display: grid;
                                             height: 70vh;
                                             cursor: pointer;
@@ -33,7 +38,6 @@
                                             height: 25px;
                                             padding: 5px;
                                             float: right;
-                                            cursor: pointer;
                                         }
                                         
                                         .ham {
