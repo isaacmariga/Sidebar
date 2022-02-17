@@ -1,43 +1,46 @@
-    * {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    list-style-type: none;
-}
-
-nav {
-    padding: 2em;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    box-shadow: 1px 1px 7px black;
-}
-
-.sidebar {
-    background-color: aqua;
-    height: 100vh;
-    width: 30vw;
-}
-
-.links {
-    display: grid;
-    height: 70vh;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    cursor: pointer;
-}
-
-.link,
-.smedias {
-    padding: 5rem;
-}
-
-.ham {
-    height: 30px;
-    cursor: pointer;
-}
-
-#fill {
-    display: none;
-    /* }
+                                        * {
+                                            padding: 0;
+                                            margin: 0;
+                                            border: 0;
+                                            list-style-type: none;
+                                        }
+                                        
+                                        nav {
+                                            padding: 2em;
+                                            display: grid;
+                                            grid-template-columns: 3fr 5fr 1fr;
+                                            box-shadow: 1px 1px 7px black;
+                                        }
+                                        
+                                        .sidebar {
+                                            background-color: aqua;
+                                            height: 100vh;
+                                            width: 30vw;
+                                        }
+                                        
+                                        .sidebar_ .links {
+                                            display: grid;
+                                            height: 70vh;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        .link,
+                                        .smedias {
+                                            padding: 4rem;
+                                        }
+                                        
+                                        .cross {
+                                            height: 25px;
+                                            padding: 5px;
+                                            float: right;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        .ham {
+                                            height: 30px;
+                                            cursor: pointer;
+                                        }
+                                        /* }
 
 @media screen and (max-width:870px) {
     .links,
